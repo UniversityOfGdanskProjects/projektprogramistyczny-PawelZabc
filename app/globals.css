@@ -1,0 +1,65 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.tile{
+  flex-grow: 2;
+}
+
+.red {
+  background-color: orange;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.brown{
+  background-color: brown;
+}
+
+.tile_grid{
+  display: grid;
+}
+
+.item_menu{
+  display: flex;
+}
+
+.item{
+  place-items: center;
+  width: 150px;
+  height: 150px;
+}
+
+.color{
+  width: 100px;
+  height: 100px
+}
+
+.selected{
+  background-color: whitesmoke;
+}
