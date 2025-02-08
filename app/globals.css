@@ -23,6 +23,11 @@ body {
 
 .tile{
   flex-grow: 2;
+  place-items: center;
+}
+.object {
+  width: 64px;
+  height: 64px;
 }
 
 .red {
@@ -43,14 +48,32 @@ body {
 
 .tile_grid{
   display: grid;
+  /* place-items: center; */
 }
 
-.item_menu{
+/* .item_menu{
+  display: flex;
+} */
+
+.menu_items{
   display: flex;
 }
 
+.menu_tabs{
+  display: flex;
+}
+
+.menu_tab{
+  height:30px;
+  background-color: darkgray;
+  outline: 2px black solid;
+}
+
 .item{
+  background-color: darkgray;
+  outline: 2px black solid;
   place-items: center;
+  justify-content: center;
   width: 150px;
   height: 150px;
 }
@@ -61,5 +84,5 @@ body {
 }
 
 .selected{
-  background-color: whitesmoke;
+  background-color: gray;
 }
