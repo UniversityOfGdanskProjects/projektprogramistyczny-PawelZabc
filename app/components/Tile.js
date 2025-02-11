@@ -1,18 +1,12 @@
 "use client"
-import {React, useState} from "react"
-import GridObject from "./gridObject"
+import {React} from "react"
+import { useTiles } from "@/app/hooks/useTiles";
 
-export default function Tile({id,tile,tileClicked}) {
-    // const [color,setColor] = useState(color_init)
-
-
+export default function Tile({id,tile}) {
+    const {tileHovered, Sprite} = useTiles()
     return (
-        <div className={`tile ${tile.ground}`} onMouseOver={()=>{
-            tileClicked(id)
-            
-            // console.log(id%10,Math.floor(id/10))
-            }}>
-                <GridObject object={tile.object}/>
-        </div>
+      <div style={Sprite(tile.ground)} onMouseOver={()=>tileHovered(id)}>
+        {(tile.object)?<div className="object" style={Sprite(tile.object)}/>:null}
+      </div>      
     )
 }

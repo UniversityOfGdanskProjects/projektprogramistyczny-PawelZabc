@@ -1,11 +1,13 @@
 "use client"
+import { useTiles } from "../hooks/useTiles"
 
-export default function SelectedItem({item}){
+export default function SelectedItem(){
+    const {Sprite,brush,setBrush} = useTiles()
     return (
-        <div className={"item"}>
+        <div className={"item"} onClick={()=>setBrush({type:"object",sprite:null,name:"remove"})}>
             selected:
-            <div className={`color ${item.color}`}></div>
-            {item.name}
+            <div style={Sprite(brush.sprite)}></div>
+            {brush.name}
             </div>
     )
     

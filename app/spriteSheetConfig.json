@@ -1,0 +1,31 @@
+{
+    "tile_size":32,
+    "sheet_width":10,
+    "sheet_height":10,
+    "items":[
+        {"name":"Items","tiles":
+        [{"name":"Potion1","type":"object"},{"name":"Potion2","type":"object"},{"name":"Potion3","type":"object"},
+        {"name":"Potion4","type":"object"},{"name":"Potion5","type":"object"},{"name":"Scroll","type":"object"},
+        {"name":"Meat","type":"object"}]},
+        {"name":"Equipment","tiles":
+        [{"name":"Light Armor","type":"object"},{"name":"Armor","type":"object"},{"name":"Small shield","type":"object"},
+        {"name":"Big shield","type":"object"},{"name":"Shortsword","type":"object"},{"name":"Longsword","type":"object"},
+        {"name":"Bow","type":"object"},{"name":"Crossbow","type":"object"},{"name":"Helmet","type":"object"}]},
+        {"name":"Enemies","tiles":
+        [{"name":"Small slime","type":"object"},{"name":"Big slime","type":"object"},{"name":"Bat","type":"object"},
+        {"name":"Dragon","type":"object"},{"name":"Big spider","type":"object"},{"name":"Small spider","type":"object"},
+        {"name":"Wolf","type":"object"},{"name":"Goblin rouge","type":"object"},{"name":"Goblin archer","type":"object"},{"name":"Goblin mage","type":"object"}]},
+        {"name":"Enemies 2","tiles":
+        [{"name":"Skeleton","type":"object"},{"name":"Skeleton archer","type":"object"},{"name":"Skeleton wizard","type":"object"},
+        {"name":"Possessed armor","type":"object"},{"name":"Zombie","type":"object"}]},
+        {"name":"Dungeon tiles","tiles":
+        [{"name":"Dungeon floor","type":"ground"},{"name":"Dungeon floor rock1","type":"ground"},{"name":"Dungeon floor rock2","type":"ground"},
+        {"name":"Dungeon floor rock3","type":"ground"},{"name":"Dungeon floor bone1","type":"ground"},{"name":"Dungeon floor bone2","type":"ground"},
+        {"name":"Dungeon floor bone3","type":"ground"},{"name":"Dungeon floor brick1","type":"ground"},{"name":"Dungeon floor brick2","type":"ground"},{"name":"Dungeon floor brick3","type":"ground"}]},
+        {"name":"Outside ground","tiles":
+        [{"name":"Grass","type":"ground"},{"name":"Grass2","type":"ground"},{"name":"Grass3","type":"ground"},
+        {"name":"Sand1","type":"ground"},{"name":"Sand2","type":"ground"},{"name":"Water","type":"ground"},
+        {"name":"Road","type":"ground"}]}
+    ],
+    "default_sprite":[5,1]
+}
