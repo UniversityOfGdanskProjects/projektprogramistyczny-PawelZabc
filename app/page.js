@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <>
     <h1>Main page</h1>
-    <div>
-      <Link href={"/login"}>Log in</Link>
-      <Link href={"/signup"}>Sign up</Link>
-      {(name)?<Link href={"/maps/"+name}>Maps</Link>:null}
+    <div className="links">
+      <div className="link"><Link href={"/login"}>Log in</Link></div>
+      <div className="link"><Link href={"/signup"}>Sign up</Link></div>
       
+      {(name)?<div className="link"><Link href={"/maps/"+name}>Maps</Link></div>:null}
     </div>
     </>
   );

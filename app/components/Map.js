@@ -7,7 +7,7 @@ import DownloadButton from "./DownloadButton"
 export default function Map({name}){
     const username = sessionStorage.getItem("username")
     return( <map className="map">
-        <p>{name}</p>
+        <div>{name}</div>
         <Link href={`/maps/${username}/${name}`}>Open</Link>
         <DownloadButton mapname={name}></DownloadButton>
         <DeleteButton mapname={name}></DeleteButton>

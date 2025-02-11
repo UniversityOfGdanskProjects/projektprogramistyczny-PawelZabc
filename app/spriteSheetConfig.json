@@ -6,7 +6,7 @@
         {"name":"Items","tiles":
         [{"name":"Potion1","type":"object"},{"name":"Potion2","type":"object"},{"name":"Potion3","type":"object"},
         {"name":"Potion4","type":"object"},{"name":"Potion5","type":"object"},{"name":"Scroll","type":"object"},
-        {"name":"Meat","type":"object"}]},
+        {"name":"Meat","type":"object"},{"name":"Start","type":"object"}]},
         {"name":"Equipment","tiles":
         [{"name":"Light Armor","type":"object"},{"name":"Armor","type":"object"},{"name":"Small shield","type":"object"},
         {"name":"Big shield","type":"object"},{"name":"Shortsword","type":"object"},{"name":"Longsword","type":"object"},
@@ -25,7 +25,27 @@
         {"name":"Outside ground","tiles":
         [{"name":"Grass","type":"ground"},{"name":"Grass2","type":"ground"},{"name":"Grass3","type":"ground"},
         {"name":"Sand1","type":"ground"},{"name":"Sand2","type":"ground"},{"name":"Water","type":"ground"},
-        {"name":"Road","type":"ground"}]}
+        {"name":"Road","type":"ground"}]},
+        {"name":"Vegetation","tiles":
+        [{"name":"Flower white","type":"object"},{"name":"Flower white2","type":"object"},{"name":"Flower red","type":"object"},
+        {"name":"Plant","type":"object"},{"name":"Plant2","type":"object"},{"name":"Plant3","type":"object"},
+        {"name":"Flower yellow","type":"object"},{"name":"Bush","type":"object"},{"name":"Mushroom small","type":"object"},
+        {"name":"Mushroom big","type":"object"}]},
+        {"name":"Walls","tiles":
+        [{"name":"Skull wall","type":"object"},{"name":"Skull wall bottom","type":"object"},{"name":"Moon wall","type":"object"},
+        {"name":"Moon wall bottom","type":"object"},{"name":"Cobble wall","type":"object"},{"name":"Cobble wall bottom","type":"object"},
+        {"name":"Smooth wall","type":"object"},{"name":"Smooth wall bottom","type":"object"},{"name":"No wall","type":"object"}]},
+        {"name":"Objects","tiles":
+        [{"name":"Chest","type":"object"},{"name":"Chest open","type":"object"},{"name":"Pot","type":"object"},
+        {"name":"Pot open","type":"object"},{"name":"Barrel","type":"object"},{"name":"Bag","type":"object"},
+        {"name":"Logs","type":"object"},{"name":"Rock1","type":"object"},{"name":"Rock2","type":"object"},
+        {"name":"Spikes","type":"object"}]},
+        {"name":"Doors","tiles":
+        [{"name":"Door brown","type":"object"},{"name":"Door green","type":"object"},{"name":"Door orange","type":"object"},
+        {"name":"Door orange open","type":"object"},{"name":"Door gray","type":"object"},{"name":"Door gray open","type":"object"},
+        {"name":"Door iron","type":"object"},{"name":"Staircase down","type":"object"},{"name":"Staircase up","type":"object"}]}
+        
+        
     ],
     "default_sprite":[5,1]
 }

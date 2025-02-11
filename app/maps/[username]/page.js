@@ -1,6 +1,5 @@
 "use client"
 import {React, useState, useEffect, useRef} from "react"
-import Link from "next/link";
 import MapForm from "@/app/components/MapForm";
 import Map from "@/app/components/Map";
 
@@ -23,7 +22,6 @@ export default function Home() {
     async function processMaps(files){
         const maps = await files
         setMaps(await maps.files.map(x=>x.slice(0, -5)))
-
     }
 
     useEffect(()=>{
@@ -41,6 +39,7 @@ export default function Home() {
                     Authorisation: `Bearer ${token}`
                 }
             }).then(async x=>await x.json()).catch(async x=>await x.json())
+            Router.reload()
     }
 
   return (

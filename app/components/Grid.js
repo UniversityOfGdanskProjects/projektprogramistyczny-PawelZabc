@@ -13,7 +13,7 @@ export default function Grid({mouseLeft}){
   }),[tiles])
     return (
         <div onMouseLeave={mouseLeft} 
-        className="tile_grid" style={{gridTemplate: `repeat(${width},${sheetConfig.tile_size+"px"})/repeat(${height},${sheetConfig.tile_size+"px"})`}}>
+        className="tile_grid" style={{gridTemplate: `repeat(${height},${sheetConfig.tile_size+"px"})/repeat(${width},${sheetConfig.tile_size+"px"})`}}>
             {grid_tiles}
         </div>
     )}

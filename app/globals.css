@@ -21,11 +21,6 @@ body {
 }
 
 
-/* .tile{
-  flex-grow: 2;
-  place-items: center;
-} */
-
 .tile {
   background-image: '/public/spriteSheet.png';
   background-size: 320px 320px;
@@ -37,30 +32,12 @@ body {
   pointer-events:none;
 }
 
-.red {
-  background-color: orange;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.green {
-  background-color: green;
-}
-
-.brown{
-  background-color: brown;
-}
 
 .tile_grid{
   display: grid;
+  justify-self: center;
   /* place-items: center; */
 }
-
-/* .item_menu{
-  display: flex;
-} */
 
 .menu_items{
   display: flex;
@@ -105,10 +82,15 @@ body {
 .map{
   background-color: darkgray;
   border-radius: 40px;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
   height: 200px;
   width: 200px;
 }
+
+
 .map:hover{
   outline: #0a0a0a solid 2px;
   background-color: gray;
@@ -116,10 +98,20 @@ body {
 
 .top{display: flex;
 position: sticky;
+align-items: center;
 top: 0;
-justify-items: end;
+min-width: 1000px;
 }
 
-/* .tile:hover{
-  outline: #0a0a0a solid 2px;
-} */
+.links{
+  align-self: center;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.link{
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+}

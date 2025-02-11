@@ -27,13 +27,13 @@ export async function POST(request) {
         try{
         const dirPath = path.join(process.cwd(), 'data/users',username );
         if (!fs.existsSync(dirPath)) {
-            fs.mkdirSync(dirPath);//tworzenie folderu user
+            fs.mkdirSync(dirPath);
 
-            const fileName = username+".json"//tworzenie user.json
+            const fileName = username+".json"
             const filePath = path.join(dirPath,fileName);
             fs.writeFileSync(filePath, JSON.stringify(account), 'utf-8');
 
-            const mapDirPath = path.join(dirPath,'maps')//tworzenie folderu na mapy
+            const mapDirPath = path.join(dirPath,'maps')
             fs.mkdirSync(mapDirPath);
             return NextResponse.json(
             {message: 'Użytkownik został utworzony pomyślnie',

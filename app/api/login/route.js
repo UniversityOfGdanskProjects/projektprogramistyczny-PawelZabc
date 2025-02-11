@@ -2,7 +2,6 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 const ACCESS_TOKEN = process.env.ACCESS_TOKEN
-// const uuid = require('u')
 import jwt from 'jsonwebtoken'
 
 

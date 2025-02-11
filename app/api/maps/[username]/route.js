@@ -2,11 +2,11 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import authorisation from '@/app/api/authorise';
-import { array } from 'yup';
 
 export async function GET(request, {params}) {
     try {
       const { username } = await params;
+      console.log(username)
       const user = await authorisation(request.headers)
       if (user.user) {
         if(user.user.username===username){
@@ -47,7 +47,6 @@ export async function GET(request, {params}) {
                   const size = width * height 
                   const tiles = [...Array(size)].map(x=>{return{ground:[5,0],object:null}})
                   const file = {width,height,tiles}
-                  // console.log(file)
                   fs.writeFileSync(filePath, JSON.stringify(file, null, 2), 'utf8');
                   return NextResponse.json({message:"Created"}, {status: 201});
                 }
