@@ -1,0 +1,706 @@
+{
+  "width": 10,
+  "height": 10,
+  "tiles": [
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    },
+    {
+      "ground": [
+        5,
+        0
+      ],
+      "object": null
+    }
+  ]
+}

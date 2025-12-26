@@ -12,6 +12,7 @@ export default function Home() {
     <>
     <h1>Main page</h1>
     <div className="links">
+      aaaa
       <div className="link"><Link href={"/login"}>Log in</Link></div>
       <div className="link"><Link href={"/signup"}>Sign up</Link></div>
       
